@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+    	<title>Was gibts diese Woche beim Helmut?</title>
+        <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="knockout-2.0.0.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <h1>Helmut</h1>
+        <div id="content">
+            <div data-bind="ifnot: menu">
+                <img src="ajax-loader.gif" alt="Loading" />
+            </div>
+            <div data-bind="if: menu">
+                <table data-bind="html: menu" id="menu"></table>
+            </div>
+        </div>
+    </body>
+</html>

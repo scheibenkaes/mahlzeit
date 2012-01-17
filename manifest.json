@@ -1,0 +1,10 @@
+{
+    "name": "mahlzeit",
+    "version": "0.1.0",
+    "description": "Maahlzeit",
+    "permissions": ["http://helmuts-imbiss.com/*"],
+    "browser_action": {
+        "default_icon": "logo.png",
+        "popup": "popup.html"
+    }
+}
