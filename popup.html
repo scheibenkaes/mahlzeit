@@ -8,13 +8,15 @@
         <link rel="stylesheet" href="main.css" />
     </head>
     <body>
-        <h1>Helmut</h1>
         <div id="content">
-            <div data-bind="ifnot: menu">
+            <div data-bind="ifnot: menu" id="spinner">
                 <img src="ajax-loader.gif" alt="Loading" />
             </div>
             <div data-bind="if: menu">
+                <h1>Helmut</h1>
                 <table data-bind="html: menu" id="menu"></table>
+                <h1>Brunner</h1>
+                <button data-bind="click: onBrunnerMenu">Aktuelle Karte</button>
             </div>
         </div>
     </body>

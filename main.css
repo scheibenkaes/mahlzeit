@@ -1,3 +1,23 @@
+tr:nth-child(odd) {
+    background-color: #eeeeec;
+}
+
+td:nth-child(1) {
+    min-width: 45pt;
+    vertical-align: middle;
+    text-align: center;
+}
+
+td {
+    vertical-align: middle;
+    text-align: center;
+}
+
 #content {
     width: 500pt;
+}
+
+#spinner {
+    margin: auto;
+    width: 120pt;
 }
